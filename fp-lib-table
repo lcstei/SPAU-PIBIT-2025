@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32-DEVKIT-V1")(type "KiCad")(uri "${KIPRJMOD}/Libs/ESP32-DEVKIT-V1")(options "")(descr ""))
+  (lib (name "MOLEX kk 2p v2.54mm")(type "KiCad")(uri "${KIPRJMOD}/Libs/MOLEX kk 2p v2.54mm")(options "")(descr ""))
+  (lib (name "LIB_PROJ")(type "KiCad")(uri "${KIPRJMOD}/Libs/STEP/LIB_PROJ.pretty")(options "")(descr ""))
+  (lib (name "SIM800L-Core-Module-KiCad-Footprint-main")(type "KiCad")(uri "${KIPRJMOD}/Libs/SIM800L-Core-Module-KiCad-Footprint-main")(options "")(descr ""))
+  (lib (name "WS v2")(type "KiCad")(uri "C:/Users/Lucas/Documents/GitHub/weather-station-code-PIBIC/WS/PCB v2/WS v2")(options "")(descr ""))
+  (lib (name "Libs")(type "KiCad")(uri "${KIPRJMOD}/Libs")(options "")(descr ""))
+)

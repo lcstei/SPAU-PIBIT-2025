@@ -1,0 +1,136 @@
+(footprint "BUCK_MODULE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.2 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "99b93ea4-d4cd-44ee-97ee-a2b74eb8f0bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BUCK_MODULE"
+		(at -0.2 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a3a81e7-7271-4048-9e8a-4baa228ed035")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.2 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3eb1579-5300-4c92-8c93-cbcbe8df300e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.2 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39857bad-9360-4677-9365-ddbef27212f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.2 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd420027-2b67-4135-844d-3a1e4737fb8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9.5 -6)
+		(end 8.5 6.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "de247c88-1497-45e1-a117-4bf61fba22ec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.2 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c38720e4-fc5b-44fb-aa75-d120feffba50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -7.5 -4)
+		(size 4 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e13fc7b2-d5a3-48e5-bc6b-863a7f0642dd")
+	)
+	(pad "2" smd roundrect
+		(at -7.5 4.2)
+		(size 4 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f974f3e4-a4f9-4b12-a8a4-1d284a6d06fa")
+	)
+	(pad "3" smd roundrect
+		(at 6.5 -4)
+		(size 4 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8145383e-ef4d-4231-9aa5-bc9deb0fb783")
+	)
+	(pad "4" smd roundrect
+		(at 6.5 4.2)
+		(size 4 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4a28c2dd-0ff9-4bea-a297-41e1c1e75ed1")
+	)
+	(model "${KIPRJMOD}/Libs/STEP/mini360.step"
+		(offset
+			(xyz 8.5 6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
